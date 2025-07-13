@@ -25,7 +25,7 @@ Timer timer;
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(IntroActivity.this , loginActivity.class);
+                Intent intent = new Intent(IntroActivity.this , MainActivity.class);
                 startActivity(intent);
                 finish();
             }
